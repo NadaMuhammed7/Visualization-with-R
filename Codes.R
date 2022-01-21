@@ -1,4 +1,4 @@
-data = read.csv("C:/Users/MostafaMohamedIsmail/Desktop/master.csv", sep =",")
+data = read.csv("C:/Users/Nadamohamed/Desktop/master.csv", sep =",")
 cleanedData=subset(data,select=-c(country.year,HDI.for.year))
 median(cleanedData$suicides_no)
 cleanedData=rename(cleanedData, "country"="ï..country","suicides(/100k.pop)"="suicides.100k.pop",
